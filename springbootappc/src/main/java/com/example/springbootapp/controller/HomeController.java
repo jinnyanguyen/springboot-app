@@ -8,6 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Application running on AWS Elastic Beanstalk";
+        return "Application running on Cloud";
     }
+
 }
